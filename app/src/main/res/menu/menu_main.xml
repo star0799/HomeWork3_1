@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+   <item
+       android:id="@+id/round"
+       android:title="@string/round">
+       <menu>
+           <item
+               android:id="@+id/rred"
+               android:title="@string/red"
+               ></item>
+           <item
+               android:id="@+id/rblue"
+               android:title="@string/blue"></item>
+
+
+       </menu>
+
+   </item>
+    <item
+        android:id="@+id/square"
+        android:title="正方形">
+        <menu><item
+            android:id="@+id/sred"
+            android:title="@string/red"
+            ></item>
+            <item
+                android:id="@+id/sblue"
+                android:title="@string/blue"></item></menu>
+    </item>
+
+
+
+</menu>
